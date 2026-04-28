@@ -1,5 +1,6 @@
-🚀 Real-Time Object Detection with YOLOv8 (FastAPI)
-📌 Project Title & Description
+
+# Real-Time Object Detection with YOLOv8 (FastAPI)
+##Project Title & Description
 
 This project implements a real-time object detection system using a pretrained YOLOv8 model served through a FastAPI backend.
 
@@ -80,19 +81,19 @@ python test_api.py
 
 Expected terminal output:
 
-Detections: {'person': 1}
-📸 Screenshots (Required)
-🔹 1. Swagger UI (/docs)
+Detections: {'person': 3}
 
-👉 Insert screenshot showing all API endpoints in Swagger UI
+## 📸 Screenshots
 
-🔹 2. test_api.py Output (Terminal)
+### 🔹 Swagger UI (/docs)
+![API Interface](Screenshorts/Capture.PNG)
 
-👉 Insert screenshot showing successful API test results
+---
 
-🔹 3. Webcam Detection Running
+### 🔹 Object Detection Output
+![Object Detection](Screenshorts/photo.jpeg)
 
-👉 Insert screenshot of live detection using webcam (if tested locally)
+
 
 🎥 Webcam Detection
 
