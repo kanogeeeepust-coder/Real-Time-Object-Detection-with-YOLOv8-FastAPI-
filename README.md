@@ -111,7 +111,7 @@ Press `q` to exit.
 ![Object Detection](Screenshorts/photo.jpeg)
 
 ### Webcam Detection  
-![Live Detection](Screenshorts/live webcam.PNG)
+![Live Detection](Screenshorts/webcam.PNG)
 
 ---
 
