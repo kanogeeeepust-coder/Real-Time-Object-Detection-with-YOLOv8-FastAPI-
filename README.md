@@ -1,6 +1,6 @@
-# 🚀 Real-Time Object Detection with YOLOv8 (FastAPI)
+#  Real-Time Object Detection with YOLOv8 (FastAPI)
 
-## 📌 Description  
+##  Description  
 This project implements a real-time object detection system using a pretrained YOLOv8 model served through a FastAPI backend.  
 
 It allows users to upload images and videos via API endpoints, perform object detection, and receive annotated outputs. A separate webcam script enables live detection by sending frames to the API.  
@@ -9,9 +9,9 @@ The YOLOv8 model is pretrained on the COCO dataset (80 object classes) and works
 
 ---
 
-## 🌐 API Endpoints  
+##  API Endpoints  
 
-### 🔹 GET /  
+###  GET /  
 **Description:** Health check endpoint  
 ```json
 {
@@ -20,7 +20,7 @@ The YOLOv8 model is pretrained on the COCO dataset (80 object classes) and works
 }
 ```
 
-### 🔹 GET /classes  
+###  GET /classes  
 **Description:** Returns all COCO class names  
 ```json
 {
@@ -28,7 +28,7 @@ The YOLOv8 model is pretrained on the COCO dataset (80 object classes) and works
 }
 ```
 
-### 🔹 POST /detect/image  
+###  POST /detect/image  
 **Description:** Detect objects in an uploaded image  
 
 **Input:**  
@@ -40,10 +40,10 @@ The YOLOv8 model is pretrained on the COCO dataset (80 object classes) and works
 - Annotated image (JPEG)  
 - Response header:  
 ```
-X-Detections: {'person': 2, 'car': 1}
+X-Detections: {'person': 3}
 ```
 
-### 🔹 POST /detect/video  
+###  POST /detect/video  
 **Description:** Detect objects in an uploaded video  
 
 **Input:**  
@@ -56,7 +56,7 @@ X-Detections: {'person': 2, 'car': 1}
 
 ---
 
-## ⚙️ Installation & Setup  
+##  Installation & Setup  
 
 ```bash
 # Clone repository
@@ -75,7 +75,7 @@ http://localhost:8000/docs
 
 ---
 
-## 🧪 Testing  
+##  Testing  
 
 ```bash
 python test_api.py
@@ -88,7 +88,7 @@ Detections: {'person': 3}
 
 ---
 
-## 🎥 Webcam Detection  
+##  Webcam Detection  
 
 ```bash
 python webcam.py
@@ -102,7 +102,7 @@ Press `q` to exit.
 
 ---
 
-## 📸 Screenshots  
+##  Screenshots  
 
 ### Swagger UI  
 ![API Interface](Screenshorts/Capture.PNG)
@@ -114,14 +114,3 @@ Press `q` to exit.
 ![Live Detection](Screenshorts/webcam.PNG)
 
 ---
-
-## 📂 Project Structure  
-
-```bash
-yolo-detection/
-│── main.py          # FastAPI backend
-│── webcam.py        # Webcam detection script
-│── test_api.py      # API testing script
-│── requirements.txt # Dependencies
-│── README.md        # Documentation
-```
