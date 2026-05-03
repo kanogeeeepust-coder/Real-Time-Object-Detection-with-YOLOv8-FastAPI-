@@ -104,6 +104,8 @@ Captures live video from webcam
 Sends frames to API
 Displays annotated output
 
+![Live Object Detection by webcame](Screenshorts/live webcam.PNG)
+
 Press 'q' to exit.
 
 📂 Project Structure
